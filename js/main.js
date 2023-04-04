@@ -4,8 +4,10 @@ collapsibles.forEach((item) =>
     this.classList.toggle('expanded');
   })
 );
-const btnScroll = document.querySelector('.scroll-to');
+const btnScroll = document.querySelectorAll('.scroll-to');
 const QRcode = document.querySelector('#scorll-here');
-btnScroll.addEventListener('click', function (event) {
-  QRcode.scrollIntoView({ behavior: 'smooth' });
-});
+for (let i = 0; i < btnScroll.length; i++) {
+  btnScroll[i].addEventListener('click', function (event) {
+    QRcode.scrollIntoView({ behavior: 'smooth' });
+  });
+}

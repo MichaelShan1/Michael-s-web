@@ -77,6 +77,11 @@ a {
   text-decoration: none;
 }
 
+.swiper {
+  text-align: center;
+  width: 50vh;
+  margin-left: 20rem;
+}
 .link-arrow {
   color: var(--ColorAccent);
   text-transform: uppercase;
@@ -155,7 +160,10 @@ a {
     padding-left: 0;
   }
 }
-
+.container-carousel {
+  max-width: 1024px;
+  margin: 0 auto;
+}
 /*icons*/
 .icon {
   width: 40px;
