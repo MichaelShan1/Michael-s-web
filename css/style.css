@@ -467,6 +467,9 @@ a {
   }
 }
 
+.lazy-img {
+  filter: blur(20px);
+}
 .testimonial {
   padding: 3rem;
 }
