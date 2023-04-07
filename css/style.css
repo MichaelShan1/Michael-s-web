@@ -467,6 +467,10 @@ a {
   }
 }
 
+.btn-wechat {
+  border: 0;
+  background-color: white;
+}
 .lazy-img {
   filter: blur(20px);
 }
