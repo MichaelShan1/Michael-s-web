@@ -26,6 +26,6 @@ const loadImg = function (entries, obeserver) {
 };
 const imgObserver = new IntersectionObserver(loadImg, {
   root: null,
-  threshold: 0,
+  threshold: 0.5,
 });
 imgLazy.forEach((img) => imgObserver.observe(img));
